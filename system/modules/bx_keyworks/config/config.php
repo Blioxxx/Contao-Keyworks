@@ -12,11 +12,11 @@
 /**
  * Back end modules
  */
-array_insert($GLOBALS['BE_MOD']['Pro Features'], 1, array
+array_insert($GLOBALS['BE_MOD']['system'], 0, array
 (
 	'bx_keyworks' => array
 	(
 		'tables'      => array('tl_bx_keyworks'),
-		'icon'        => 'system/modules/bx_keyworks/html/icon.gif',
+		'icon'        => 'system/modules/bx_keyworks/html/icon.png',
 	)
 ));
