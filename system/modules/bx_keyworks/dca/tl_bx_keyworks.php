@@ -153,11 +153,8 @@ class tl_bx_keyworks extends Backend
 {
     /**
      * @param DataContainer $dc
-     * @command Database $current
      */
     public function updateKeywords(DataContainer $dc){
-        /*$current = $this->Database->prepare("SELECT id,keywords FROM tl_article")->execute()->fetchAllAssoc();
-        $currentNumber = count($current)+1;*/
         $currentNumber = count($dc->activeRecord->keywordSites)+1;
         $pages = deserialize($currentPage = $dc->activeRecord->descriptionSite);
 
@@ -169,7 +166,6 @@ class tl_bx_keyworks extends Backend
 
     /**
      * @param Datacontainer $dc
-     * @command Database $current
      */
     public function updateDescription(Datacontainer $dc){
         $currentNumber = count($dc->activeRecord->descriptionSites)+1;
