@@ -17,6 +17,6 @@ array_insert($GLOBALS['BE_MOD']['system'], 0, array
 	'bx_keyworks' => array
 	(
 		'tables'      => array('tl_bx_keyworks'),
-		'icon'        => 'system/modules/bx_keyworks/html/icon.png',
+		'icon'        => 'system/modules/bx_keyworks/html/images/icon.png',
 	)
 ));
