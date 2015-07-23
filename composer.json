@@ -1,0 +1,43 @@
+{
+  "name": "",
+  "description": "",
+  "keywords": [
+    "cwd"
+  ],
+  "type": "contao-module",
+  "homepage": "http://www.computerworks.de",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Mirco Kibiger",
+      "email": "",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "",
+    "issues": "https://github.com/blixxx/Keyworks/",
+    "forum": "",
+    "irc": "",
+    "source": "https://github.com/blixxx/Keyworks/"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.1,<4"
+  },
+  "suggest": {
+  },
+  "conflict": {
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "ziel": "source"
+      }
+    }
+  },
+  "branch-alias": {
+    "dev-master": "2.0.x-dev"
+  }
+}
