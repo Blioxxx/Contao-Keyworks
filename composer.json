@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "bx/Keyworks",
   "description": "",
   "keywords": [
-    "cwd"
+    "mkibiger"
   ],
   "type": "contao-module",
-  "homepage": "http://www.computerworks.de",
+  "homepage": "blixxx.net",
   "license": "LGPL-3.0+",
   "authors": [
     {
@@ -33,7 +33,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "ziel": "source"
+        "system/modules/bx_keyworks": ""
       }
     }
   },
