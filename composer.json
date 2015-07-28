@@ -1,8 +1,10 @@
 {
-  "name": "bx/Keyworks",
+  "name": "bx/keyworks",
   "description": "",
   "keywords": [
-    "mkibiger"
+    "mkibiger",
+    "Keywords",
+    "Keyworks"
   ],
   "type": "contao-module",
   "homepage": "blixxx.net",
