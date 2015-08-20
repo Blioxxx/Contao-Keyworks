@@ -35,7 +35,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "system/modules/bx_keyworks": ""
+        "": "system/modules/bx_keyworks"
       }
     }
   },
